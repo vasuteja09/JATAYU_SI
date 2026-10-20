@@ -46,7 +46,7 @@ The platform is engineered to transition aerospace fleet operations from reactiv
 | **Category** | Software |
 | **Team Name** | Track Force |
 | **Hackathon** | Smart India Hackathon 2026 |
-| **Repository** | [https://github.com/revanthgrr/sih_PS-2.git](https://github.com/revanthgrr/sih_PS-2.git) |
+
 
 > [!NOTE]
 > **Data Provenance & Safety Notice:**  
@@ -325,8 +325,8 @@ Follow these steps to set up and run the entire platform locally from scratch.
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/revanthgrr/sih_PS-2.git
-cd sih_PS-2
+git clone https://github.com/vasuteja09/JATAYU_SIH.git
+cd JATAYU_SIH
 ```
 
 ### 2. Configure Environment Variables
