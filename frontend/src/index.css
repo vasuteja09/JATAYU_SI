@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-aerospace-50: #F0F5FA;
+  --color-aerospace-100: #E1EBF5;
+  --color-aerospace-200: #C4D7EB;
+  --color-aerospace-300: #9BBDE0;
+  --color-aerospace-400: #6AA0D1;
+  --color-aerospace-500: #3D7FC2;
+  --color-aerospace-600: #2A65A5;
+  --color-aerospace-700: #1D4D85;
+  --color-aerospace-800: #143663;
+  --color-aerospace-900: #0F2855;
+  --color-aerospace-950: #081735;
+}
+
+:root {
+  --bg-main: #F8FAFC;
+  --card-surface: #FFFFFF;
+  --border-subtle: #E2E8F0;
+  --navy-brand: #0F2855;
+  --blue-accent: #1D4ED8;
+  --sky-accent: #38BDF8;
+  --text-primary: #1E293B;
+  --text-muted: #64748B;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* Aerospace Technical Grid Accent */
+.aerospace-grid-bg {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(15, 40, 85, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(15, 40, 85, 0.03) 1px, transparent 1px);
+}
+
+/* Card Styling */
+.aerospace-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(15, 40, 85, 0.04), 0 1px 2px -1px rgba(15, 40, 85, 0.02);
+  transition: all 0.2s ease-in-out;
+}
+
+.aerospace-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(15, 40, 85, 0.07), 0 2px 4px -2px rgba(15, 40, 85, 0.04);
+}
+
+/* Custom Scrollbar for Telemetry Tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

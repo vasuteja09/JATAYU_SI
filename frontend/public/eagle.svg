@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2855"/>
+      <stop offset="100%" stop-color="#081735"/>
+    </linearGradient>
+    <linearGradient id="wingGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#0F2855"/>
+    </linearGradient>
+    <linearGradient id="beakGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="crestGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded App Background Icon Container -->
+  <rect width="64" height="64" rx="14" fill="url(#bgGrad2)"/>
+  <rect width="64" height="64" rx="14" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.35"/>
+
+  <!-- Left Wing / Crest Feathers (Aerodynamic Sweep) -->
+  <path d="M10 26 C16 16, 26 12, 36 10 C31 16, 27 23, 24 31 C21 27, 16 26, 10 26 Z" fill="url(#crestGrad2)"/>
+  <path d="M12 36 C18 28, 26 23, 34 20 C29 27, 26 34, 25 43 C20 40, 15 39, 12 36 Z" fill="url(#wingGrad2)" opacity="0.9"/>
+  <path d="M16 46 C21 41, 28 36, 35 34 C31 41, 30 47, 31 54 C25 52, 19 50, 16 46 Z" fill="#1D4ED8" opacity="0.75"/>
+
+  <!-- Eagle Head & Crown -->
+  <path d="M26 12 C34 10, 43 13, 47 19 C51 24, 50 28, 48 31 C43 31, 39 33, 36 37 C34 33, 31 29, 27 25 C26 20, 26 15, 26 12 Z" fill="#F8FAFC"/>
+
+  <!-- Eagle Neck & Throat -->
+  <path d="M27 25 C31 29, 34 33, 36 37 C38 42, 38 48, 36 53 C32 46, 29 39, 27 25 Z" fill="#E2E8F0"/>
+
+  <!-- Majestic Eagle Beak (Sharp & Powerful Hook) -->
+  <path d="M48 24 C52 24, 57 26, 60 30 C58 35, 53 38, 46 38 C49 35, 49 31, 48 24 Z" fill="url(#beakGrad2)"/>
+  <path d="M46 33 C49 33, 53 35, 55 38 C51 40, 46 39, 44 36 C45 35, 45 34, 46 33 Z" fill="#D97706"/>
+
+  <!-- Fierce Eagle Eye -->
+  <circle cx="42" cy="22" r="2.8" fill="#0F172A"/>
+  <circle cx="42.6" cy="21.4" r="1.1" fill="#FDE047"/>
+  <path d="M37 19 C40 18, 44 19, 46 22" stroke="#0F172A" stroke-width="1.2" stroke-linecap="round"/>
+</svg>

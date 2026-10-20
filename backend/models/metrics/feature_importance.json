@@ -1,0 +1,77 @@
+[
+  {
+    "feature": "Vibration Rolling Max",
+    "importance": 0.3024,
+    "raw_name": "vibration_rolling_max"
+  },
+  {
+    "feature": "Temperature Rolling Min",
+    "importance": 0.1306,
+    "raw_name": "temperature_rolling_min"
+  },
+  {
+    "feature": "Vibration Rolling Min",
+    "importance": 0.1237,
+    "raw_name": "vibration_rolling_min"
+  },
+  {
+    "feature": "Rpm Rolling Mean",
+    "importance": 0.1128,
+    "raw_name": "rpm_rolling_mean"
+  },
+  {
+    "feature": "Rpm Rolling Max",
+    "importance": 0.0864,
+    "raw_name": "rpm_rolling_max"
+  },
+  {
+    "feature": "Operating Hours",
+    "importance": 0.0302,
+    "raw_name": "operating_hours"
+  },
+  {
+    "feature": "Vibration Dev Baseline",
+    "importance": 0.0295,
+    "raw_name": "vibration_dev_baseline"
+  },
+  {
+    "feature": "Electrical Voltage Rolling Mean",
+    "importance": 0.0282,
+    "raw_name": "electrical_voltage_rolling_mean"
+  },
+  {
+    "feature": "Oil Pressure Rolling Mean",
+    "importance": 0.028,
+    "raw_name": "oil_pressure_rolling_mean"
+  },
+  {
+    "feature": "Total Past Maintenance Events",
+    "importance": 0.0206,
+    "raw_name": "total_past_maintenance_events"
+  },
+  {
+    "feature": "Electrical Voltage Rolling Min",
+    "importance": 0.0194,
+    "raw_name": "electrical_voltage_rolling_min"
+  },
+  {
+    "feature": "Total Cycles",
+    "importance": 0.0166,
+    "raw_name": "total_cycles"
+  },
+  {
+    "feature": "Hours Since Last Maint",
+    "importance": 0.0165,
+    "raw_name": "hours_since_last_maint"
+  },
+  {
+    "feature": "Electrical Voltage Rolling Max",
+    "importance": 0.0154,
+    "raw_name": "electrical_voltage_rolling_max"
+  },
+  {
+    "feature": "Oil Pressure Rolling Max",
+    "importance": 0.0094,
+    "raw_name": "oil_pressure_rolling_max"
+  }
+]

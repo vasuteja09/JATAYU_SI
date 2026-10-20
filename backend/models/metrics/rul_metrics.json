@@ -1,0 +1,8 @@
+{
+  "model_type": "XGBoost Regressor (RUL)",
+  "unit": "flight hours",
+  "mae": 10.88,
+  "rmse": 23.22,
+  "test_samples": 75,
+  "validation_note": "Prototype validation on synthetic/public dataset. Not operational military data."
+}
